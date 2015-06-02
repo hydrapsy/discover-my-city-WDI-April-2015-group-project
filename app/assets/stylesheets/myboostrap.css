@@ -1,0 +1,97 @@
+body {
+		background-image: url("images/wallpaper.png");
+
+}
+p.title {
+		font-size: 5em;
+}
+img.pull_right {
+
+
+}
+#contents{
+		margin-top: 5%;
+}
+
+li.nav {
+		display: inline;
+		float: right;
+		padding-left: 0.5%;
+
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      	width: 70%;
+      	height: 55%;
+     	 margin: auto;
+  }
+
+.row{
+		margin-top:3%;
+}
+.r_shortcut{	
+		float: right;
+		margin-right: 5%;
+		margin-top: 10%;
+
+
+}
+
+
+.above_art{
+		max-width: 236px;
+		height: 236px;
+}
+
+
+ @media all and (max-width: 400px){  
+
+ul {
+		padding-left: 0;
+		padding-top: 2%;
+
+}
+li.nav {
+		display: block;
+		float: none;
+		padding-left: 0;
+
+}
+
+
+ .carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 80%;
+      height: 30%;
+      margin: auto;
+  }
+
+.above_art {
+		display: none;
+}
+.r_shortcut{	
+	display: none;
+
+
+}
+
+
+ }
+
+/*.bg {
+		width: 100%;
+		background-image: url("images/graysand.png");
+		padding:30px 15px; 
+		margin-bottom:30px;
+		color:inherit;
+		background;
+
+}
+*//*h1{
+	text-align: center;
+}*/
+/*.apple{
+	display: inline;
+	float: left;
+}*/
