@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'quicksand_regular';
+    font-family: 'quicksand-regular';
     src: asset-url('quicksand-regular.eot'); /* IE9 Compat Modes */
     src: asset-url('/quicksand-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     asset-url('quicksand-regular.woff') format('woff'), /* Modern Browsers */
@@ -10,12 +10,12 @@
 }
 
 @font-face {
-    font-family: 'quicksand_bold';
-    src: url('quicksand_bold.eot'); /* IE9 Compat Modes */
-    src: url('quicksand_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('quicksand_bold.woff') format('woff'), /* Modern Browsers */
-    url('quicksand_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('quicksand_bold.svg') format('svg'); /* Legacy iOS */
+    font-family: 'quicksand-bold';
+    src: url('quicksand-bold.eot'); /* IE9 Compat Modes */
+    src: url('quicksand-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('quicksand-bold.woff') format('woff'), /* Modern Browsers */
+    url('quicksand-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('quicksand-bold.svg') format('svg'); /* Legacy iOS */
     font-weight: normal;
   	font-style: normal;
 }

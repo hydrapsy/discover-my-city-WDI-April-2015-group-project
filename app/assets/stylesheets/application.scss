@@ -14,46 +14,46 @@
  *= require_self
  */
 
-@import 'fonts';
+// @import 'fonts';
 
-$primary-font: "quicksand";
-$prmary-font-bold: "quicksand_bold";
-$primary-color-top: #1D1128;
-$primary-color-bottom: #F7F6ED;
-$secondary-color: #a19dab;
+// $primary-font: "quicksand";
+// $prmary-font-bold: "quicksand_bold";
+// $primary-color-top: #1D1128;
+// $primary-color-bottom: #F7F6ED;
+// $secondary-color: #a19dab;
 
-body {
-		margin: -5px;
-	#main {
-		width: 100%;
-		height: auto;
+// body {
+// 		margin: -5px;
+// 	#main {
+// 		width: 100%;
+// 		height: auto;
 
-		.top {
-			height: 425px;
-			background-color: $primary-color-top;
-			img {
-				display: inline;
-				width: 45%;
-				height: 400px;
-				opacity: 0.9;
-				margin-left: 4%;
+// 		.top {
+// 			height: 425px;
+// 			background-color: $primary-color-top;
+// 			img {
+// 				display: inline;
+// 				width: 45%;
+// 				height: 400px;
+// 				opacity: 0.9;
+// 				margin-left: 4%;
 
-			}
-	}
-		.bottom {
-			height: 175px;
-			background-color: $primary-color-bottom;
-			button {
-				display: inline;
-				float: left;
-				width: 255px;
-				height: 40px;
-				font-size: 24px;
-				font-family: quicksand-regular;
-				margin-left: 5%;
-				background-color: $secondary-color;
-				color: #FFFFFF;
-			}
-		}
-	}
-}
+// 			}
+// 	}
+// 		.bottom {
+// 			height: 175px;
+// 			background-color: $primary-color-bottom;
+// 			button {
+// 				display: inline;
+// 				float: left;
+// 				width: 255px;
+// 				height: 40px;
+// 				font-size: 24px;
+// 				font-family: quicksand-regular;
+// 				margin-left: 5%;
+// 				background-color: $secondary-color;
+// 				color: #FFFFFF;
+// 			}
+// 		}
+// 	}
+// }
