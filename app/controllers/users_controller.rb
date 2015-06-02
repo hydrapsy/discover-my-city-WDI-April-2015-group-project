@@ -69,5 +69,4 @@ before_action :authenticate_user! only: [:edit, :update, :destroy, :close, :pass
 		def user_params
 			params.require(:user).permit(:username, :email, :lname, :fname, :password, :current_password)
 		end
-
 end

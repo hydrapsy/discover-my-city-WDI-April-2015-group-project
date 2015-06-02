@@ -12,6 +12,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150602002543) do
 =======
 ActiveRecord::Schema.define(version: 20150602155514) do
@@ -40,6 +41,9 @@ ActiveRecord::Schema.define(version: 20150602155514) do
 
   add_index "comments", ["artwork_id"], name: "index_comments_on_artwork_id"
 >>>>>>> 5c75b7576eea74bf6ba4640e96a7abded8433bf8
+=======
+ActiveRecord::Schema.define(version: 20150602002543) do
+>>>>>>> 3507fcfc3c060ce18d080cb23fdf30e89bbcbe75
 
   create_table "users", force: :cascade do |t|
     t.string   "fname"
@@ -49,9 +53,12 @@ ActiveRecord::Schema.define(version: 20150602155514) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     t.string   "username"
 >>>>>>> 5c75b7576eea74bf6ba4640e96a7abded8433bf8
+=======
+>>>>>>> 3507fcfc3c060ce18d080cb23fdf30e89bbcbe75
   end
 
 end
