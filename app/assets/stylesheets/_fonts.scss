@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'quicksand-regular';
+    src: asset-url('quicksand-regular.eot'); /* IE9 Compat Modes */
+    src: asset-url('/quicksand-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    asset-url('quicksand-regular.woff') format('woff'), /* Modern Browsers */
+    asset-url('quicksand-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    asset-url('quicksand-regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand-bold';
+    src: url('quicksand-bold.eot'); /* IE9 Compat Modes */
+    src: url('quicksand-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('quicksand-bold.woff') format('woff'), /* Modern Browsers */
+    url('quicksand-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('quicksand-bold.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+  	font-style: normal;
+}

@@ -11,7 +11,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150602002543) do
+=======
+ActiveRecord::Schema.define(version: 20150602155514) do
+
+  create_table "artworks", force: :cascade do |t|
+    t.string   "name"
+    t.string   "artist"
+    t.string   "location"
+    t.text     "history"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.integer  "artwork_id"
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.string   "name"
+    t.text     "body"
+    t.integer  "artwork_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "comments", ["artwork_id"], name: "index_comments_on_artwork_id"
+>>>>>>> 5c75b7576eea74bf6ba4640e96a7abded8433bf8
 
   create_table "users", force: :cascade do |t|
     t.string   "fname"
@@ -20,6 +48,10 @@ ActiveRecord::Schema.define(version: 20150602002543) do
     t.string   "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
+=======
+    t.string   "username"
+>>>>>>> 5c75b7576eea74bf6ba4640e96a7abded8433bf8
   end
 
 end
