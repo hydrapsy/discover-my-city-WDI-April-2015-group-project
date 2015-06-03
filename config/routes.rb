@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  # get 'map/index'
+
 # You can have the root of your site routed with "root"
   root "index#home", as: "index_path"
 
@@ -20,5 +22,10 @@ Rails.application.routes.draw do
   resources :artworks do
     resources :comments
   end
+
+  get 'map/index'
+
+  
+
 
 end

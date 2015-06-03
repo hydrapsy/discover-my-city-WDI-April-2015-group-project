@@ -1,0 +1,16 @@
+<h3>Where would you like to discover?</h3>
+
+<%= yield %>
+
+<div id="googleMap" style="width: 500px;height: 380px;">
+</div>
+
+<script type="text/javascript">
+function initialize() {
+	var mapProp = {
+		center: new google.mapsLatLng(51.508742, -0.120850), zoom: 7,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+}
+	
+</script>
