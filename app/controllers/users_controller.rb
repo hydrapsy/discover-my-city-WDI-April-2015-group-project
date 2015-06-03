@@ -17,6 +17,7 @@ before_action :authenticate_user!, only: [:edit, :update, :destroy, :close, :pas
 	end
 
 	def show
+		@user = User.find_by_email(params[:email])
 	end
 
 	def create

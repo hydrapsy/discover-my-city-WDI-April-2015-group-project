@@ -24,8 +24,8 @@ Rails.application.routes.draw do
   end
 
   get '/map', to: 'map#index'
-
   
+  get '/show', to: 'map#show'
 
 
 end
