@@ -1,5 +1,20 @@
 Rails.application.routes.draw do
 
+  get 'registrations/new'
+
+  get 'registrations/edit'
+
+  resources :artworks do
+    resources :comments
+  end
+
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
+
+  resources :users, except: [:index, :show]
+
+  get '/signup', to: 'registrations#new'
 
   get 'index/new'
 
