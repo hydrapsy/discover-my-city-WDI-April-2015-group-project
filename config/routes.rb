@@ -23,7 +23,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
-  get 'map/index'
+  get '/map', to: 'map#index'
 
   
 

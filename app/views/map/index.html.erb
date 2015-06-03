@@ -1,16 +1,25 @@
 <h3>Where would you like to discover?</h3>
 
-<%= yield %>
-
-<div id="googleMap" style="width: 500px;height: 380px;">
+<div style='width: 800px;'>
+  <div id="map" style='width: 800px; height: 400px;'></div>
 </div>
 
 <script type="text/javascript">
-function initialize() {
-	var mapProp = {
-		center: new google.mapsLatLng(51.508742, -0.120850), zoom: 7,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	}
-}
-	
+
+	handler = Gmaps.build('Google');
+	handler.buildMap({
+	    provider: {
+	      disableDefaultUI: true
+	      // pass in other Google Maps API options here
+	    },
+	    internal: {
+	      id: 'map'
+	    }
+	  },
+	  function(){
+	    markers = handler.addMarkers(<%= raw @artworks.to_json %>);
+	    handler.bounds.extendWith(markers);
+	    handler.fitMapToBounds();
+	  }
+	);
 </script>
